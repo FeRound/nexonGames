@@ -1,4 +1,19 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "NEXON Lv2 Gothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "NEXON Lv2 Gothic";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
 #header {
   position: fixed;
   top: 0;
