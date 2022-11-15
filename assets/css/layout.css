@@ -3,10 +3,11 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1000;
 }
 #header .header-inner {
   position: relative;
-  background: red;
+  background: #ffffff;
 }
 #header .header-inner .header-main-logo {
   position: absolute;
@@ -70,6 +71,61 @@
   top: 50%;
   right: 10px;
   transform: translateY(-50%);
+}
+#header .header-inner .mobile-gnb {
+  height: 100vh;
+  width: 75%;
+  padding-top: 50px;
+  position: fixed;
+  display: block;
+  right: -75%;
+  top: 0;
+  background-color: #fff;
+  transition: all 0.3s;
+  z-index: 999;
+}
+#header .header-inner .mobile-gnb.on {
+  right: 0;
+}
+#header .header-inner .mobile-gnb .header-language-select {
+  right: 80px;
+  top: 10px;
+}
+#header .header-inner .mobile-gnb .close-btn {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #999;
+  line-height: 50px;
+  text-align: center;
+}
+#header .header-inner .mobile-gnb .gnb .gnb-menu > li {
+  border-top: 1px solid #eeeeee;
+}
+#header .header-inner .mobile-gnb .gnb .gnb-menu > li a {
+  display: block;
+  text-align: left;
+  line-height: 50px;
+  width: 100%;
+  height: 50px;
+  color: #3c6189;
+  font-size: 16px;
+  padding: 0 15px;
+  font-weight: 600;
+}
+#header .header-inner .mobile-gnb .gnb .gnb-menu > li ul {
+  display: none;
+}
+#header .header-inner .mobile-gnb .gnb .gnb-menu > li:last-child {
+  border-bottom: 1px solid #eeeeee;
+}
+
+main {
+  min-height: calc(100vh - (100px + 400px) - 51px);
 }
 
 #footer {

@@ -1,10 +1,16 @@
+$headerHight: 100px;
+$footerHeight: 400px;
+$mainMinHeight: calc(100vh - (#{$headerHight} + #{$footerHeight}) - 51px);
+
+
 #header{
   position: fixed;
   top:0;
   width: 100%;
+  z-index: 1000;
   .header-inner{
     position: relative;
-    background: red;
+    background: #ffffff;
     .header-main-logo{
       position: absolute;
       left:70px;
@@ -68,10 +74,68 @@
         transform: translateY(-50%);
       }
     }
+    .mobile-gnb{
+      height: 100vh;
+      width: 75%;
+      padding-top: 50px;
+      position: fixed;
+      display: block;
+      right: -75%;
+      top: 0;
+      background-color: #fff;
+      transition: all 0.3s;
+      z-index: 999;
+      &.on{
+        right: 0;
+      }
+      .header-language-select{
+        right: 80px;
+        top: 10px;
+      }
+      .close-btn{
+        background-color: #fff;
+        width: 50px;
+        height: 50px;
+        font-size: 22px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: #999;
+        line-height: 50px;
+        text-align: center;
+      }
+      .gnb{
+        .gnb-menu{
+          & > li{
+            border-top: 1px solid #eeeeee;
+            a{
+              display: block;
+              text-align: left;
+              line-height: 50px;
+              width: 100%;
+              height: 50px;
+              color:#3c6189;
+              font-size: 16px;
+              padding: 0 15px;
+              font-weight: 600;
+            }
+            ul{
+              display: none;
+            }
+            &:last-child{
+              border-bottom: 1px solid #eeeeee;
+            }
+          }
+        }
+      }
+    }
   }
 }
-
+main{
+  min-height: $mainMinHeight;
+}
 #footer{
+
   background-color: #f3f3f3;
   .footer-container{
     width: 95%;
