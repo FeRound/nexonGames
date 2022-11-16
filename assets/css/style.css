@@ -14,6 +14,28 @@
   list-style: none;
 }
 
+#main .inner {
+  width: 95%;
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+#main img {
+  max-width: 100%;
+}
+#main .btn-move-left {
+  transition: 0.3s;
+}
+#main .btn-move-left:hover {
+  transform: translateX(-20px);
+}
+#main .btn-move-right {
+  transition: 0.3s;
+}
+#main .btn-move-right:hover {
+  transform: translateX(20px);
+}
+
 #header {
   position: fixed;
   top: 0;
@@ -75,6 +97,39 @@
   font-weight: bold;
   color: #222222;
   display: block;
+}
+#header .header-inner .gnb-down-menu {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 70px;
+  display: none;
+  background: #f8f8f8;
+}
+#header .header-inner .gnb-down-menu .gnb-down-menu-inner {
+  max-width: 640px;
+  margin: 0 auto;
+  padding-top: 10px;
+  display: flex;
+}
+#header .header-inner .gnb-down-menu .gnb-down-menu-inner ul li a {
+  font-size: 15px;
+  color: #666666;
+  display: inline-block;
+  line-height: 35px;
+  width: 100%;
+}
+#header .header-inner .gnb-down-menu .gnb-down-menu-inner ul:nth-child(1) {
+  margin-right: 85px;
+}
+#header .header-inner .gnb-down-menu .gnb-down-menu-inner ul:nth-child(2) {
+  margin-right: 30px;
+}
+#header .header-inner .gnb-down-menu .gnb-down-menu-inner ul:nth-child(3) {
+  margin-right: 90px;
+}
+#header .header-inner .gnb-down-menu .gnb-down-menu-inner ul:nth-child(4) {
+  margin-right: 60px;
 }
 #header .header-inner .mobile-menu-btn {
   display: none;
@@ -284,14 +339,15 @@
 #main .game-trailer {
   margin-top: 70px;
 }
-#main .game-trailer .inner {
+#main .game-trailer .main-video-swiper {
+  position: relative;
   height: 35vw;
   overflow: hidden;
 }
-#main .game-trailer .inner .swiper-slide video {
+#main .game-trailer .main-video-swiper .swiper-slide video {
   width: 100%;
 }
-#main .game-trailer .inner .swiper-pagination-progressbar {
+#main .game-trailer .main-video-swiper .swiper-pagination-progressbar {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 90%;
@@ -299,17 +355,243 @@
   top: 90%;
   background: #ffffff;
 }
-#main .game-trailer .inner .swiper-pagination-progressbar span {
+#main .game-trailer .main-video-swiper .swiper-pagination-progressbar span {
   top: -2px;
   height: 3px;
   background: #ffffff;
 }
-#main .game-trailer .inner .swiper-button-next {
+#main .game-trailer .main-video-swiper .swiper-button-next {
   right: 5%;
   top: 80%;
 }
-#main .game-trailer .inner .swiper-button-next:after {
+#main .game-trailer .main-video-swiper .swiper-button-next:after {
   content: "";
+}
+#main #section1 .inner {
+  width: 95%;
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+  padding: 150px 0;
+  color: #222222;
+}
+#main #section1 .inner .main-title {
+  text-align: center;
+}
+#main #section1 .inner .main-title h4 {
+  font-weight: lighter;
+  padding-bottom: 15px;
+  font-size: 66px;
+}
+#main #section1 .inner .main-title h2 {
+  padding-bottom: 50px;
+  font-size: 66px;
+}
+#main #section1 .inner .main-title .bar {
+  display: block;
+  margin: 0 auto;
+  background: #222222;
+  width: 1px;
+  height: 50px;
+}
+#main #section1 .inner .content .items {
+  display: flex;
+}
+#main #section1 .inner .content .items .left {
+  padding-top: 280px;
+  width: 42%;
+}
+#main #section1 .inner .content .items .left p {
+  color: #222222;
+  font-size: 30px;
+  padding-bottom: 55px;
+}
+#main #section1 .inner .content .items .right {
+  width: 58%;
+}
+#main #section1 .inner .content .items .right img {
+  max-width: 100%;
+}
+#main #section2 {
+  background-image: url(../img/main/section2-bg-img1.jpg);
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+#main #section2 .inner {
+  padding-top: 250px;
+  padding-bottom: 380px;
+  width: 95%;
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+#main #section2 .inner .main-title h2 {
+  font-size: 66px;
+  color: #222222;
+}
+#main #section2 .inner .main-title .content .section2-swiper {
+  padding-bottom: 15px;
+}
+#main #section2 .inner .main-title .content .section2-swiper .swiper-slide {
+  margin-top: 100px;
+  padding-left: 100px;
+  padding-right: 20px;
+  display: flex;
+}
+#main #section2 .inner .main-title .content .section2-swiper .swiper-slide .left {
+  width: 23%;
+  margin-right: 100px;
+}
+#main #section2 .inner .main-title .content .section2-swiper .swiper-slide .left img {
+  max-width: 100%;
+}
+#main #section2 .inner .main-title .content .section2-swiper .swiper-slide .right {
+  width: 55%;
+}
+#main #section2 .inner .main-title .content .section2-swiper .swiper-slide .right .interviewee {
+  font-weight: bold;
+  display: block;
+  font-size: 18px;
+  color: #cad401;
+  padding-bottom: 25px;
+}
+#main #section2 .inner .main-title .content .section2-swiper .swiper-slide .right .name {
+  font-size: 45px;
+  color: #222222;
+  padding-bottom: 65px;
+}
+#main #section2 .inner .main-title .content .section2-swiper .swiper-slide .right .name .team-name {
+  display: inline-block;
+  font-size: 18px;
+  color: #999999;
+}
+#main #section2 .inner .main-title .content .section2-swiper .swiper-slide .right .title {
+  font-size: 33px;
+  color: #222222;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+#main #section2 .inner .main-title .content .section2-swiper .swiper-slide .right .comment {
+  font-size: 18px;
+  padding-left: 18px;
+  line-height: 28px;
+}
+#main #section2 .inner .main-title .content .section2-swiper .slider-ctrl {
+  position: absolute;
+  bottom: 0;
+  right: 35px;
+  width: 130px;
+}
+#main #section2 .inner .main-title .content .section2-swiper .slider-ctrl .swiper-button-next, #main #section2 .inner .main-title .content .section2-swiper .slider-ctrl .swiper-button-prev {
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  position: relative;
+  display: inline-block;
+  color: #222222;
+  font-weight: bold;
+}
+#main #section2 .inner .main-title .content .section2-swiper .slider-ctrl .swiper-button-next {
+  float: right;
+}
+#main #section2 .inner .main-title .content .section2-swiper .slider-ctrl .swiper-button-next::after {
+  content: "";
+  width: 17px;
+  height: 8px;
+  right: -70%;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  background-image: url(../img/main/section_next_btn.png);
+}
+#main #section2 .inner .main-title .content .section2-swiper .slider-ctrl .swiper-button-prev {
+  float: left;
+}
+#main #section2 .inner .main-title .content .section2-swiper .slider-ctrl .swiper-button-prev::after {
+  content: "";
+  width: 17px;
+  height: 8px;
+  left: -70%;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  background-image: url(../img/main/section_prev_btn.png);
+}
+#main #section3 .inner {
+  width: 95%;
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 250px;
+}
+#main #section3 .inner h2 {
+  font-size: 65px;
+  padding-bottom: 80px;
+}
+#main #section3 .content .news-latest ul {
+  display: flex;
+}
+#main #section3 .content .news-latest ul li {
+  width: 28.125%;
+  margin-right: 7.8125%;
+}
+#main #section3 .content .news-latest ul li:last-child {
+  margin-right: 0;
+}
+#main #section3 .content .news-latest ul li img {
+  max-width: 100%;
+}
+#main #section3 .content .news-latest ul li .cont .list-ca {
+  margin-top: 40px;
+}
+#main #section3 .content .news-latest ul li .cont .list-ca .category-tag {
+  font-size: 14px;
+  font-weight: bold;
+  padding-right: 7px;
+  color: #222222;
+}
+#main #section3 .content .news-latest ul li .cont .list-ca .custom-date {
+  font-size: 14px;
+  color: #aeaeae;
+  padding-left: 7px;
+  position: relative;
+}
+#main #section3 .content .news-latest ul li .cont .title {
+  font-size: 24px;
+  color: #191b1d;
+  padding: 10px 0 20px;
+  display: block;
+  font-weight: bold;
+  min-height: 84px;
+}
+#main #section3 .content .news-latest ul li .cont p {
+  font-size: 15px;
+  color: #888888;
+  line-height: 22px;
+}
+#main #section4 {
+  padding-bottom: 125px;
+}
+#main #section4 .inner h2 {
+  font-size: 65px;
+  padding-bottom: 80px;
+}
+#main #section4 .inner .content {
+  margin-bottom: 120px;
+}
+#main #section4 .inner .text-box {
+  position: absolute;
+  left: 0;
+  bottom: -75px;
+  background: #ffffff;
+  padding-top: 50px;
+  padding-right: 65px;
+}
+#main #section4 .inner .text-box p {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: bold;
 }
 
 @media all and (max-width: 1440px) {

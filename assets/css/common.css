@@ -12,3 +12,25 @@
   text-decoration: none;
   list-style: none;
 }
+
+#main .inner {
+  width: 95%;
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+#main img {
+  max-width: 100%;
+}
+#main .btn-move-left {
+  transition: 0.3s;
+}
+#main .btn-move-left:hover {
+  transform: translateX(-20px);
+}
+#main .btn-move-right {
+  transition: 0.3s;
+}
+#main .btn-move-right:hover {
+  transform: translateX(20px);
+}
