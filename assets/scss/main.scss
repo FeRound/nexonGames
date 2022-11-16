@@ -1,2 +1,53 @@
+#main{
+  // min-height: $mainMinHeight;
+  .game-trailer{
+    margin-top: 70px;
+    .inner{
+      height: 35vw;
+      overflow: hidden;
+      .swiper-slide{
+        video{
+          width: 100%;
+        }
+      }
+      .swiper-pagination-progressbar{
+        left:50%;
+        transform: translate(-50%,-50%);
+        width: 90%;
+        height: 0.5px;
+        top:90%;
+        background: #ffffff;
+        span{
+          top:-2px;
+          height: 3px;
+          background: #ffffff;
+        }
+      }
+      .swiper-button-next{
+        right:5%;
+        top:80%;
+        &:after{
+          content: "";
+        }
+      }
+    }
 
+  }
+}
+
+@media all and (max-width:1440px) {
+  #main{
+    .game-trailer{
+      margin-top: 100px;
+    }
+  }
+}
+
+@media all and (max-width:480px) {
+  #main{
+    .game-trailer{
+      margin-top: 70px;
+    }
+  }
+}
 

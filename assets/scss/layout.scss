@@ -1,7 +1,6 @@
-$headerHight: 100px;
-$footerHeight: 400px;
-$mainMinHeight: calc(100vh - (#{$headerHight} + #{$footerHeight}) - 51px);
-
+// $headerHight: 60px;
+// $footerHeight: 600px;
+// $mainMinHeight: calc(100vh - (#{$headerHight} + #{$footerHeight}) - 51px);
 
 #header{
   position: fixed;
@@ -131,11 +130,7 @@ $mainMinHeight: calc(100vh - (#{$headerHight} + #{$footerHeight}) - 51px);
     }
   }
 }
-main{
-  min-height: $mainMinHeight;
-}
 #footer{
-
   background-color: #f3f3f3;
   .footer-container{
     width: 95%;
@@ -285,3 +280,17 @@ main{
   }
 }
 
+@media all and (max-width:480px) {
+  #header{
+    .header-inner{
+      height: 70px;
+      .header-main-logo{
+        left: 12px;
+        top: 12px;
+      }
+      .header-language-select{
+        display: none;
+      }
+    }
+  }
+}

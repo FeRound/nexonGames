@@ -124,10 +124,6 @@
   border-bottom: 1px solid #eeeeee;
 }
 
-main {
-  min-height: calc(100vh - (100px + 400px) - 51px);
-}
-
 #footer {
   background-color: #f3f3f3;
 }
@@ -256,5 +252,17 @@ main {
   }
   #header .header-inner .mobile-menu-btn {
     display: block;
+  }
+}
+@media all and (max-width: 480px) {
+  #header .header-inner {
+    height: 70px;
+  }
+  #header .header-inner .header-main-logo {
+    left: 12px;
+    top: 12px;
+  }
+  #header .header-inner .header-language-select {
+    display: none;
   }
 }
