@@ -24,6 +24,18 @@
           background: #ffffff;
         }
       }
+      .swiper-pagination-fraction{
+        z-index: 10;
+        position: absolute;
+        color: rgba(255,255,255, .4);
+        right: 7%;
+        left: 93%;
+        bottom: 5%;
+        font-size: 13px;
+        .swiper-pagination-current{
+          color:#ffffff;
+        }
+      }
       .swiper-button-next{
         right:5%;
         top:80%;

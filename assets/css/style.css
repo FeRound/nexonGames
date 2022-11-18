@@ -360,6 +360,18 @@
   height: 3px;
   background: #ffffff;
 }
+#main .game-trailer .main-video-swiper .swiper-pagination-fraction {
+  z-index: 10;
+  position: absolute;
+  color: rgba(255, 255, 255, 0.4);
+  right: 7%;
+  left: 93%;
+  bottom: 5%;
+  font-size: 13px;
+}
+#main .game-trailer .main-video-swiper .swiper-pagination-fraction .swiper-pagination-current {
+  color: #ffffff;
+}
 #main .game-trailer .main-video-swiper .swiper-button-next {
   right: 5%;
   top: 80%;
