@@ -4,8 +4,7 @@ $(document).ready(function(){
     return false
   })
 
-  $(".gnb li").on('mouseenter', function(){ // 헤더 마우스호버 이벤트 ON 
-    // $(".gnb-down-menu").css("height","300px");
+  $(".gnb-wrap .gnb li").on('mouseenter', function(){ // 헤더 마우스호버 이벤트 ON 
     $(".gnb-down-menu").animate({
       height : "300px",
     },300)
