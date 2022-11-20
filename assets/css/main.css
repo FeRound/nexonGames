@@ -1,15 +1,24 @@
-#main .game-trailer {
+#main.main .inner {
+  width: 95%;
+  max-width: 1280px;
+  position: relative;
+  margin: 0 auto;
+}
+#main.main img {
+  max-width: 100%;
+}
+#main.main .game-trailer {
   margin-top: 70px;
 }
-#main .game-trailer .main-video-swiper {
+#main.main .game-trailer .main-video-swiper {
   position: relative;
   height: 35vw;
   overflow: hidden;
 }
-#main .game-trailer .main-video-swiper .swiper-slide video {
+#main.main .game-trailer .main-video-swiper .swiper-slide video {
   width: 100%;
 }
-#main .game-trailer .main-video-swiper .swiper-pagination-progressbar {
+#main.main .game-trailer .main-video-swiper .swiper-pagination-progressbar {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 90%;
@@ -17,12 +26,12 @@
   top: 90%;
   background: #ffffff;
 }
-#main .game-trailer .main-video-swiper .swiper-pagination-progressbar span {
+#main.main .game-trailer .main-video-swiper .swiper-pagination-progressbar span {
   top: -2px;
   height: 3px;
   background: #ffffff;
 }
-#main .game-trailer .main-video-swiper .swiper-pagination-fraction {
+#main.main .game-trailer .main-video-swiper .swiper-pagination-fraction {
   z-index: 10;
   position: absolute;
   color: rgba(255, 255, 255, 0.4);
@@ -31,17 +40,17 @@
   bottom: 5%;
   font-size: 13px;
 }
-#main .game-trailer .main-video-swiper .swiper-pagination-fraction .swiper-pagination-current {
+#main.main .game-trailer .main-video-swiper .swiper-pagination-fraction .swiper-pagination-current {
   color: #ffffff;
 }
-#main .game-trailer .main-video-swiper .swiper-button-next {
+#main.main .game-trailer .main-video-swiper .swiper-button-next {
   right: 5%;
   top: 80%;
 }
-#main .game-trailer .main-video-swiper .swiper-button-next:after {
+#main.main .game-trailer .main-video-swiper .swiper-button-next:after {
   content: "";
 }
-#main #section1 .inner {
+#main.main #section1 .inner {
   width: 95%;
   max-width: 1280px;
   margin: 0 auto;
@@ -49,50 +58,43 @@
   padding: 150px 0;
   color: #222222;
 }
-#main #section1 .inner .main-title {
+#main.main #section1 .inner .main-title {
   text-align: center;
 }
-#main #section1 .inner .main-title h4 {
+#main.main #section1 .inner .main-title h4 {
   font-weight: lighter;
   padding-bottom: 15px;
   font-size: 66px;
 }
-#main #section1 .inner .main-title h2 {
+#main.main #section1 .inner .main-title h2 {
   padding-bottom: 50px;
   font-size: 66px;
 }
-#main #section1 .inner .main-title .bar {
-  display: block;
-  margin: 0 auto;
-  background: #222222;
-  width: 1px;
-  height: 50px;
-}
-#main #section1 .inner .content .items {
+#main.main #section1 .inner .content .items {
   display: flex;
 }
-#main #section1 .inner .content .items .left {
+#main.main #section1 .inner .content .items .left {
   padding-top: 280px;
   width: 42%;
 }
-#main #section1 .inner .content .items .left p {
+#main.main #section1 .inner .content .items .left p {
   color: #222222;
   font-size: 30px;
   padding-bottom: 55px;
 }
-#main #section1 .inner .content .items .right {
+#main.main #section1 .inner .content .items .right {
   width: 58%;
 }
-#main #section1 .inner .content .items .right img {
+#main.main #section1 .inner .content .items .right img {
   max-width: 100%;
 }
-#main #section2 {
+#main.main #section2 {
   background-image: url(../img/main/section2-bg-img1.jpg);
   background-size: cover;
   background-position: left center;
   background-repeat: no-repeat;
 }
-#main #section2 .inner {
+#main.main #section2 .inner {
   padding-top: 250px;
   padding-bottom: 380px;
   width: 95%;
@@ -100,64 +102,64 @@
   margin: 0 auto;
   position: relative;
 }
-#main #section2 .inner .main-title h2 {
+#main.main #section2 .inner .main-title h2 {
   font-size: 66px;
   color: #222222;
 }
-#main #section2 .inner .main-title .content .section2-swiper {
+#main.main #section2 .inner .main-title .content .section2-swiper {
   padding-bottom: 15px;
 }
-#main #section2 .inner .main-title .content .section2-swiper .swiper-slide {
+#main.main #section2 .inner .main-title .content .section2-swiper .swiper-slide {
   margin-top: 100px;
   padding-left: 100px;
   padding-right: 20px;
   display: flex;
 }
-#main #section2 .inner .main-title .content .section2-swiper .swiper-slide .left {
+#main.main #section2 .inner .main-title .content .section2-swiper .swiper-slide .left {
   width: 23%;
   margin-right: 100px;
 }
-#main #section2 .inner .main-title .content .section2-swiper .swiper-slide .left img {
+#main.main #section2 .inner .main-title .content .section2-swiper .swiper-slide .left img {
   max-width: 100%;
 }
-#main #section2 .inner .main-title .content .section2-swiper .swiper-slide .right {
+#main.main #section2 .inner .main-title .content .section2-swiper .swiper-slide .right {
   width: 55%;
 }
-#main #section2 .inner .main-title .content .section2-swiper .swiper-slide .right .interviewee {
+#main.main #section2 .inner .main-title .content .section2-swiper .swiper-slide .right .interviewee {
   font-weight: bold;
   display: block;
   font-size: 18px;
   color: #cad401;
   padding-bottom: 25px;
 }
-#main #section2 .inner .main-title .content .section2-swiper .swiper-slide .right .name {
+#main.main #section2 .inner .main-title .content .section2-swiper .swiper-slide .right .name {
   font-size: 45px;
   color: #222222;
   padding-bottom: 65px;
 }
-#main #section2 .inner .main-title .content .section2-swiper .swiper-slide .right .name .team-name {
+#main.main #section2 .inner .main-title .content .section2-swiper .swiper-slide .right .name .team-name {
   display: inline-block;
   font-size: 18px;
   color: #999999;
 }
-#main #section2 .inner .main-title .content .section2-swiper .swiper-slide .right .title {
+#main.main #section2 .inner .main-title .content .section2-swiper .swiper-slide .right .title {
   font-size: 33px;
   color: #222222;
   margin-bottom: 20px;
   font-weight: bold;
 }
-#main #section2 .inner .main-title .content .section2-swiper .swiper-slide .right .comment {
+#main.main #section2 .inner .main-title .content .section2-swiper .swiper-slide .right .comment {
   font-size: 18px;
   padding-left: 18px;
   line-height: 28px;
 }
-#main #section2 .inner .main-title .content .section2-swiper .slider-ctrl {
+#main.main #section2 .inner .main-title .content .section2-swiper .slider-ctrl {
   position: absolute;
   bottom: 0;
   right: 35px;
   width: 130px;
 }
-#main #section2 .inner .main-title .content .section2-swiper .slider-ctrl .swiper-button-next, #main #section2 .inner .main-title .content .section2-swiper .slider-ctrl .swiper-button-prev {
+#main.main #section2 .inner .main-title .content .section2-swiper .slider-ctrl .swiper-button-next, #main.main #section2 .inner .main-title .content .section2-swiper .slider-ctrl .swiper-button-prev {
   width: auto;
   height: auto;
   font-size: 20px;
@@ -166,10 +168,10 @@
   color: #222222;
   font-weight: bold;
 }
-#main #section2 .inner .main-title .content .section2-swiper .slider-ctrl .swiper-button-next {
+#main.main #section2 .inner .main-title .content .section2-swiper .slider-ctrl .swiper-button-next {
   float: right;
 }
-#main #section2 .inner .main-title .content .section2-swiper .slider-ctrl .swiper-button-next::after {
+#main.main #section2 .inner .main-title .content .section2-swiper .slider-ctrl .swiper-button-next::after {
   content: "";
   width: 17px;
   height: 8px;
@@ -179,10 +181,10 @@
   position: absolute;
   background-image: url(../img/main/section_next_btn.png);
 }
-#main #section2 .inner .main-title .content .section2-swiper .slider-ctrl .swiper-button-prev {
+#main.main #section2 .inner .main-title .content .section2-swiper .slider-ctrl .swiper-button-prev {
   float: left;
 }
-#main #section2 .inner .main-title .content .section2-swiper .slider-ctrl .swiper-button-prev::after {
+#main.main #section2 .inner .main-title .content .section2-swiper .slider-ctrl .swiper-button-prev::after {
   content: "";
   width: 17px;
   height: 8px;
@@ -192,46 +194,46 @@
   position: absolute;
   background-image: url(../img/main/section_prev_btn.png);
 }
-#main #section3 .inner {
+#main.main #section3 .inner {
   width: 95%;
   max-width: 1280px;
   margin: 0 auto;
   position: relative;
   padding-bottom: 250px;
 }
-#main #section3 .inner h2 {
+#main.main #section3 .inner h2 {
   font-size: 65px;
   padding-bottom: 80px;
 }
-#main #section3 .content .news-latest ul {
+#main.main #section3 .content .news-latest ul {
   display: flex;
 }
-#main #section3 .content .news-latest ul li {
+#main.main #section3 .content .news-latest ul li {
   width: 28.125%;
   margin-right: 7.8125%;
 }
-#main #section3 .content .news-latest ul li:last-child {
+#main.main #section3 .content .news-latest ul li:last-child {
   margin-right: 0;
 }
-#main #section3 .content .news-latest ul li img {
+#main.main #section3 .content .news-latest ul li img {
   max-width: 100%;
 }
-#main #section3 .content .news-latest ul li .cont .list-ca {
+#main.main #section3 .content .news-latest ul li .cont .list-ca {
   margin-top: 40px;
 }
-#main #section3 .content .news-latest ul li .cont .list-ca .category-tag {
+#main.main #section3 .content .news-latest ul li .cont .list-ca .category-tag {
   font-size: 14px;
   font-weight: bold;
   padding-right: 7px;
   color: #222222;
 }
-#main #section3 .content .news-latest ul li .cont .list-ca .custom-date {
+#main.main #section3 .content .news-latest ul li .cont .list-ca .custom-date {
   font-size: 14px;
   color: #aeaeae;
   padding-left: 7px;
   position: relative;
 }
-#main #section3 .content .news-latest ul li .cont .title {
+#main.main #section3 .content .news-latest ul li .cont .title {
   font-size: 24px;
   color: #191b1d;
   padding: 10px 0 20px;
@@ -239,22 +241,22 @@
   font-weight: bold;
   min-height: 84px;
 }
-#main #section3 .content .news-latest ul li .cont p {
+#main.main #section3 .content .news-latest ul li .cont p {
   font-size: 15px;
   color: #888888;
   line-height: 22px;
 }
-#main #section4 {
+#main.main #section4 {
   padding-bottom: 125px;
 }
-#main #section4 .inner h2 {
+#main.main #section4 .inner h2 {
   font-size: 65px;
   padding-bottom: 80px;
 }
-#main #section4 .inner .content {
+#main.main #section4 .inner .content {
   margin-bottom: 120px;
 }
-#main #section4 .inner .text-box {
+#main.main #section4 .inner .text-box {
   position: absolute;
   left: 0;
   bottom: -75px;
@@ -262,19 +264,19 @@
   padding-top: 50px;
   padding-right: 65px;
 }
-#main #section4 .inner .text-box p {
+#main.main #section4 .inner .text-box p {
   font-size: 36px;
   line-height: 46px;
   font-weight: bold;
 }
 
 @media all and (max-width: 1440px) {
-  #main .game-trailer {
+  #main {
     margin-top: 100px;
   }
 }
 @media all and (max-width: 480px) {
-  #main .game-trailer {
+  #main {
     margin-top: 70px;
   }
 }

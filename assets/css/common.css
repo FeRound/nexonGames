@@ -13,6 +13,29 @@
   list-style: none;
 }
 
+.bar {
+  display: block;
+  margin: 0 auto;
+  background: #222222;
+  width: 1px;
+  height: 50px;
+}
+
+.location {
+  max-width: 1280px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px 0 165px;
+  text-align: right;
+  font-size: 15px;
+}
+.location img {
+  margin-right: 10px;
+}
+.location p {
+  color: #ffffff;
+}
+
 .btn-move-left {
   transition: 0.3s;
 }
@@ -27,12 +50,6 @@
   transform: translateX(5px);
 }
 
-#main .inner {
-  width: 95%;
-  max-width: 1280px;
-  margin: 0 auto;
-  position: relative;
-}
-#main img {
-  max-width: 100%;
+#main {
+  margin: 70px auto 0;
 }

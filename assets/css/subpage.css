@@ -1,29 +1,86 @@
-body.sub-page .nexon-games {
-  max-width: 1640px;
+.sub-page.nexon-games #main.nexon-games {
   width: 100%;
-  margin: 0 auto;
+  max-width: 1640px;
 }
-body.sub-page .nexon-games .main-banner {
+.sub-page.nexon-games #main.nexon-games h2 {
+  text-align: center;
+  font-size: 66px;
+  color: #191b1d;
+  padding-bottom: 85px;
+}
+.sub-page.nexon-games #main.nexon-games .main-banner {
   background-image: url(../img/nexongames/nexongames/main-banner.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   max-width: 1640px;
+  padding-bottom: 205px;
 }
-body.sub-page .nexon-games .main-banner .location {
-  max-width: 1280px;
-  width: 90%;
-  margin: 0 auto;
-  padding: 40px 0 165px;
-}
-body.sub-page .nexon-games .main-banner .main-title h2 {
+.sub-page.nexon-games #main.nexon-games .main-banner .main-title h2 {
   text-align: center;
   font-size: 66px;
   color: #ffffff;
 }
-body.sub-page .nexon-games .main-banner .sub-title p {
+.sub-page.nexon-games #main.nexon-games .main-banner .sub-title p {
   font-size: 32px;
   text-align: center;
   padding-top: 25px;
   color: #ffffff;
+  line-height: 43px;
+}
+.sub-page.nexon-games #main.nexon-games .info-text {
+  padding: 100px 0 55px;
+  margin: 70px auto 0;
+}
+.sub-page.nexon-games #main.nexon-games .info-text p {
+  text-align: center;
+  font-size: 28px;
+  line-height: 40px;
+}
+.sub-page.nexon-games #main.nexon-games .info-text .bar {
+  margin: 70px auto 0;
+}
+.sub-page.nexon-games #main.nexon-games #section1 .content {
+  background-image: url(../img/nexongames/nexongames/section1-img1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 230px 0;
+}
+.sub-page.nexon-games #main.nexon-games #section1 .content .main-title {
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+  width: 90%;
+}
+.sub-page.nexon-games #main.nexon-games #section1 .content .main-title .line {
+  position: absolute;
+  height: 1px;
+  width: 25%;
+  background: rgba(255, 255, 255, 0.5);
+  top: 50%;
+  transform: translateY(-50%);
+}
+.sub-page.nexon-games #main.nexon-games #section1 .content .main-title .line:nth-child(1) {
+  right: 0;
+}
+.sub-page.nexon-games #main.nexon-games #section1 .content .main-title h3 {
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+  font-size: 55px;
+  width: 50%;
+}
+.sub-page.nexon-games #main.nexon-games #section1 .content .sub-title p {
+  font-size: 28px;
+  text-align: center;
+  padding-top: 30px;
+  color: #ffffff;
+  line-height: 43px;
+}
+.sub-page.nexon-games #main.nexon-games #section2 .inner {
+  padding-top: 150px;
+}
+.sub-page.nexon-games #main.nexon-games #section2 .inner h2 {
+  padding-bottom: 50px;
 }

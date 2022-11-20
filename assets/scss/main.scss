@@ -1,5 +1,13 @@
-#main{
-  
+#main.main{
+  .inner{
+    width: 95%;
+    max-width: 1280px;
+    position: relative;
+    margin: 0 auto;
+  }
+  img{
+    max-width: 100%;
+  }
   .game-trailer{
     margin-top: 70px;
     .main-video-swiper{
@@ -44,7 +52,6 @@
         }
       }
     }
-
   }
   #section1{
     .inner{
@@ -65,17 +72,9 @@
           padding-bottom: 50px;
           font-size: 66px;
         }
-        .bar{
-          display: block;
-          margin: 0 auto;
-          background: #222222;
-          width:1px;
-          height: 50px;
-        }
       }
       .content{
         .items{
-
           display: flex;
           .left{
             padding-top: 280px;
@@ -307,17 +306,13 @@
 
 @media all and (max-width:1440px) {
   #main{
-    .game-trailer{
       margin-top: 100px;
-    }
   }
 }
 
 @media all and (max-width:480px) {
   #main{
-    .game-trailer{
       margin-top: 70px;
-    }
   }
 }
 
