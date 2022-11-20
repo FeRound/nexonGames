@@ -6,6 +6,18 @@
 }
 *{font-family: 'NEXON Lv2 Gothic';padding: 0;margin: 0;box-sizing: border-box;text-decoration: none;list-style: none;}
 
+.btn-move-left{
+  transition: .3s;
+  &:hover{
+    transform: translateX(-5px);      
+  }    
+}
+.btn-move-right{
+  transition: .3s;
+  &:hover{
+    transform: translateX(5px);      
+  }   
+}
 #main{ //메인 index
   .inner{
     width: 95%;
@@ -15,19 +27,5 @@
   }
   img{
     max-width: 100%;
-  }
-
-  .btn-move-left{
-    transition: .3s;
-    &:hover{
-      transform: translateX(-5px);
-      
-    }    
-  }
-  .btn-move-right{
-    transition: .3s;
-    &:hover{
-      transform: translateX(5px);      
-    }   
   }
 }

@@ -1,0 +1,7 @@
+body.sub-page .nexon-games .main-banner {
+  background-image: url(../img/nexongames/nexongames/main-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1640px;
+}

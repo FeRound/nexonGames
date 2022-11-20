@@ -14,6 +14,20 @@
   list-style: none;
 }
 
+.btn-move-left {
+  transition: 0.3s;
+}
+.btn-move-left:hover {
+  transform: translateX(-5px);
+}
+
+.btn-move-right {
+  transition: 0.3s;
+}
+.btn-move-right:hover {
+  transform: translateX(5px);
+}
+
 #main .inner {
   width: 95%;
   max-width: 1280px;
@@ -22,18 +36,6 @@
 }
 #main img {
   max-width: 100%;
-}
-#main .btn-move-left {
-  transition: 0.3s;
-}
-#main .btn-move-left:hover {
-  transform: translateX(-5px);
-}
-#main .btn-move-right {
-  transition: 0.3s;
-}
-#main .btn-move-right:hover {
-  transform: translateX(5px);
 }
 
 #header {
@@ -615,4 +617,11 @@
   #main .game-trailer {
     margin-top: 70px;
   }
+}
+body.sub-page .nexon-games .main-banner {
+  background-image: url(../img/nexongames/nexongames/main-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1640px;
 }
