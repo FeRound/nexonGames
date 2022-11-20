@@ -20,14 +20,14 @@
   .btn-move-left{
     transition: .3s;
     &:hover{
-      transform: translateX(-20px);
+      transform: translateX(-5px);
       
     }    
   }
   .btn-move-right{
     transition: .3s;
     &:hover{
-      transform: translateX(20px);      
+      transform: translateX(5px);      
     }   
   }
 }

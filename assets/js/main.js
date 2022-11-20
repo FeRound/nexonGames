@@ -7,12 +7,12 @@ $(document).ready(function(){
   $(".gnb-wrap .gnb li").on('mouseenter', function(){ // 헤더 마우스호버 이벤트 ON 
     $(".gnb-down-menu").animate({
       height : "300px",
-    },300)
+    },200)
   })
   $("#header").on("mouseleave", function(){ // 헤더 마우스호버 이벤트 OFF
     $(".gnb-down-menu").animate({
       height : "0",
-    },300)
+    },200)
   })
 
 
@@ -36,7 +36,7 @@ $(document).ready(function(){
   });
   trailerswiper.controller.control = fractionSwiper;
 
-  var setion2Swiper = new Swiper(".section2-swiper", { // section2 스와이퍼
+  var setion2Swiper = new Swiper(".section2-swiper", { // 메인 section2 스와이퍼
     loop:true,
     navigation: {
       nextEl: ".swiper-button-next",
