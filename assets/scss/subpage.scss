@@ -1,12 +1,35 @@
 body.sub-page{
   .nexon-games{
+    max-width: 1640px;
+    width: 100%;
+    margin: 0 auto;
     .main-banner{
       background-image: url(../img/nexongames/nexongames/main-banner.jpg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
       max-width: 1640px;
-
+      .location{
+        max-width: 1280px;
+        width: 90%;
+        margin: 0 auto;
+        padding: 40px 0 165px;
+      }
+      .main-title{
+        h2{
+          text-align: center;
+          font-size: 66px;
+          color:#ffffff;
+        }
+      }
+      .sub-title{
+        p{
+          font-size: 32px;
+          text-align: center;
+          padding-top: 25px;
+          color:#ffffff;
+        }
+      }
     }
   }
 }
