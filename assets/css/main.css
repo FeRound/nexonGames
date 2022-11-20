@@ -4,9 +4,6 @@
   position: relative;
   margin: 0 auto;
 }
-#main.main img {
-  max-width: 100%;
-}
 #main.main .game-trailer {
   margin-top: 70px;
 }

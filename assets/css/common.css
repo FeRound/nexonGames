@@ -50,6 +50,10 @@
   transform: translateX(5px);
 }
 
+img {
+  max-width: 100%;
+}
+
 #main {
   margin: 70px auto 0;
 }
