@@ -759,14 +759,14 @@ img {
 }
 .sub-page #main.nexon-games #section2 .inner .content .items .wrap.right .text-box {
   text-align: right;
-  padding: 50px 65px 50px 0;
+  padding: 50px 25px 50px 0;
 }
 .sub-page #main.nexon-games #section2 .inner .content .items .wrap .img {
   flex: 30%;
 }
 .sub-page #main.nexon-games #section2 .inner .content .items .wrap .text-box {
   flex: 70%;
-  padding: 50px 0 50px 65px;
+  padding: 50px 0 50px 25px;
 }
 .sub-page #main.nexon-games #section2 .inner .content .items .wrap .text-box .game-name {
   margin-bottom: 30px;
