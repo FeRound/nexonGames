@@ -1,14 +1,14 @@
-.sub-page.nexon-games #main.nexon-games {
+.sub-page #main.nexon-games {
   width: 100%;
   max-width: 1640px;
 }
-.sub-page.nexon-games #main.nexon-games h2 {
+.sub-page #main.nexon-games h2 {
   text-align: center;
   font-size: 66px;
   color: #191b1d;
   padding-bottom: 85px;
 }
-.sub-page.nexon-games #main.nexon-games .main-banner {
+.sub-page #main.nexon-games .main-banner {
   background-image: url(../img/sub-page/nexongames/nexongames/main-banner.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -16,44 +16,44 @@
   max-width: 1640px;
   padding-bottom: 205px;
 }
-.sub-page.nexon-games #main.nexon-games .main-banner .main-title h2 {
+.sub-page #main.nexon-games .main-banner .main-title h2 {
   text-align: center;
   font-size: 66px;
   color: #ffffff;
 }
-.sub-page.nexon-games #main.nexon-games .main-banner .sub-title p {
+.sub-page #main.nexon-games .main-banner .sub-title p {
   font-size: 32px;
   text-align: center;
   padding-top: 25px;
   color: #ffffff;
   line-height: 43px;
 }
-.sub-page.nexon-games #main.nexon-games .info-text {
+.sub-page #main.nexon-games .info-text {
   padding: 100px 0 55px;
   margin: 70px auto 0;
 }
-.sub-page.nexon-games #main.nexon-games .info-text p {
+.sub-page #main.nexon-games .info-text p {
   text-align: center;
   font-size: 28px;
   line-height: 40px;
 }
-.sub-page.nexon-games #main.nexon-games .info-text .bar {
+.sub-page #main.nexon-games .info-text .bar {
   margin: 70px auto 0;
 }
-.sub-page.nexon-games #main.nexon-games #section1 .content {
+.sub-page #main.nexon-games #section1 .content {
   background-image: url(../img/sub-page/nexongames/nexongames/section1-img1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding: 230px 0;
 }
-.sub-page.nexon-games #main.nexon-games #section1 .content .main-title {
+.sub-page #main.nexon-games #section1 .content .main-title {
   max-width: 1280px;
   margin: 0 auto;
   position: relative;
   width: 90%;
 }
-.sub-page.nexon-games #main.nexon-games #section1 .content .main-title .line {
+.sub-page #main.nexon-games #section1 .content .main-title .line {
   position: absolute;
   height: 1px;
   width: 25%;
@@ -61,88 +61,88 @@
   top: 50%;
   transform: translateY(-50%);
 }
-.sub-page.nexon-games #main.nexon-games #section1 .content .main-title .line:nth-child(1) {
+.sub-page #main.nexon-games #section1 .content .main-title .line:nth-child(1) {
   right: 0;
 }
-.sub-page.nexon-games #main.nexon-games #section1 .content .main-title h3 {
+.sub-page #main.nexon-games #section1 .content .main-title h3 {
   text-align: center;
   color: #ffffff;
   margin: 0 auto;
   font-size: 55px;
   width: 50%;
 }
-.sub-page.nexon-games #main.nexon-games #section1 .content .sub-title p {
+.sub-page #main.nexon-games #section1 .content .sub-title p {
   font-size: 28px;
   text-align: center;
   padding-top: 30px;
   color: #ffffff;
   line-height: 43px;
 }
-.sub-page.nexon-games #main.nexon-games #section2 .inner {
+.sub-page #main.nexon-games #section2 .inner {
   padding-top: 150px;
 }
-.sub-page.nexon-games #main.nexon-games #section2 .inner h2 {
+.sub-page #main.nexon-games #section2 .inner h2 {
   padding-bottom: 50px;
 }
-.sub-page.nexon-games #main.nexon-games #section2 .inner .content {
+.sub-page #main.nexon-games #section2 .inner .content {
   max-width: 1280px;
   margin: 0 auto;
   width: 90%;
 }
-.sub-page.nexon-games #main.nexon-games #section2 .inner .content .items {
+.sub-page #main.nexon-games #section2 .inner .content .items {
   background-repeat: no-repeat;
   background-position: center 100%;
 }
-.sub-page.nexon-games #main.nexon-games #section2 .inner .content .items + .items {
+.sub-page #main.nexon-games #section2 .inner .content .items + .items {
   margin-top: -30px;
 }
-.sub-page.nexon-games #main.nexon-games #section2 .inner .content .items:nth-child(1) {
+.sub-page #main.nexon-games #section2 .inner .content .items:nth-child(1) {
   background-image: url(../img/sub-page/nexongames/nexongames/section2-bg-img1.png);
 }
-.sub-page.nexon-games #main.nexon-games #section2 .inner .content .items:nth-child(2) {
+.sub-page #main.nexon-games #section2 .inner .content .items:nth-child(2) {
   background-image: url(../img/sub-page/nexongames/nexongames/section2-bg-img2.png);
 }
-.sub-page.nexon-games #main.nexon-games #section2 .inner .content .items:nth-child(3) {
+.sub-page #main.nexon-games #section2 .inner .content .items:nth-child(3) {
   background-image: url(../img/sub-page/nexongames/nexongames/section2-bg-img3.png);
 }
-.sub-page.nexon-games #main.nexon-games #section2 .inner .content .items:nth-child(4) {
+.sub-page #main.nexon-games #section2 .inner .content .items:nth-child(4) {
   background-image: url(../img/sub-page/nexongames/nexongames/section2-bg-img4.png);
 }
-.sub-page.nexon-games #main.nexon-games #section2 .inner .content .items:nth-child(5) {
+.sub-page #main.nexon-games #section2 .inner .content .items:nth-child(5) {
   background-image: url(../img/sub-page/nexongames/nexongames/section2-bg-img5.png);
 }
-.sub-page.nexon-games #main.nexon-games #section2 .inner .content .items .wrap {
+.sub-page #main.nexon-games #section2 .inner .content .items .wrap {
   display: flex;
 }
-.sub-page.nexon-games #main.nexon-games #section2 .inner .content .items .wrap.right {
+.sub-page #main.nexon-games #section2 .inner .content .items .wrap.right {
   flex-direction: row-reverse;
 }
-.sub-page.nexon-games #main.nexon-games #section2 .inner .content .items .wrap.right .text-box {
+.sub-page #main.nexon-games #section2 .inner .content .items .wrap.right .text-box {
   text-align: right;
   padding: 50px 65px 50px 0;
 }
-.sub-page.nexon-games #main.nexon-games #section2 .inner .content .items .wrap .img {
+.sub-page #main.nexon-games #section2 .inner .content .items .wrap .img {
   flex: 30%;
 }
-.sub-page.nexon-games #main.nexon-games #section2 .inner .content .items .wrap .text-box {
+.sub-page #main.nexon-games #section2 .inner .content .items .wrap .text-box {
   flex: 70%;
   padding: 50px 0 50px 65px;
 }
-.sub-page.nexon-games #main.nexon-games #section2 .inner .content .items .wrap .text-box .game-name {
+.sub-page #main.nexon-games #section2 .inner .content .items .wrap .text-box .game-name {
   margin-bottom: 30px;
 }
-.sub-page.nexon-games #main.nexon-games #section2 .inner .content .items .wrap .text-box .game-name h3 {
+.sub-page #main.nexon-games #section2 .inner .content .items .wrap .text-box .game-name h3 {
   display: inline-block;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 55%, #e8e8e8 50%);
   font-size: 50px;
   padding: 0 10px;
 }
-.sub-page.nexon-games #main.nexon-games #section2 .inner .content .items .wrap .text-box p {
+.sub-page #main.nexon-games #section2 .inner .content .items .wrap .text-box p {
   font-size: 24px;
   color: #666666;
   padding-bottom: 15px;
   line-height: 33px;
 }
-.sub-page.nexon-games #main.nexon-games #section2 .inner .content .items .wrap .text-box p strong {
+.sub-page #main.nexon-games #section2 .inner .content .items .wrap .text-box p strong {
   color: #191b1d;
 }
