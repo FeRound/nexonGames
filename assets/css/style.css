@@ -786,3 +786,26 @@ img {
 .sub-page #main.nexon-games #section2 .inner .content .items .wrap .text-box p strong {
   color: #191b1d;
 }
+.sub-page #main.nexon-games #section3 .inner {
+  padding: 245px 0 50px;
+}
+.sub-page #main.nexon-games #section3 .inner h2 {
+  padding-bottom: 30px;
+}
+.sub-page #main.nexon-games #section3 .inner .content ul {
+  display: flex;
+  justify-content: center;
+}
+.sub-page #main.nexon-games #section3 .inner .content ul li:first-child {
+  margin-right: 20px;
+}
+.sub-page #main.nexon-games #section3 .inner .content ul li a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #222222;
+  display: flex;
+  align-items: center;
+}
+.sub-page #main.nexon-games #section3 .inner .content ul li a img {
+  padding-right: 10px;
+}

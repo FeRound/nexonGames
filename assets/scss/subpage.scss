@@ -132,7 +132,6 @@
               }
               .text-box{
                 flex: 70%;
-
                 padding: 50px 0 50px 25px;
                 .game-name{
                   margin-bottom: 30px;
@@ -155,6 +154,35 @@
               }
             }       
           }            
+        }
+      }
+    }
+    #section3{
+      .inner{
+        h2{
+          padding-bottom: 30px;
+        }
+        padding: 245px 0 50px;
+        .content{
+          ul{
+            display: flex;
+            justify-content: center;
+            li{
+              &:first-child{
+                margin-right: 20px;
+              }
+              a{
+                img{
+                  padding-right: 10px;
+                }
+                font-size: 20px;
+                font-weight: bold;
+                color:#222222;
+                display: flex;
+                align-items: center;
+              }
+            }
+          }
         }
       }
     }
