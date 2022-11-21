@@ -147,7 +147,7 @@
   color: #191b1d;
 }
 .sub-page #main.nexon-games #section3 .inner {
-  padding: 245px 0 50px;
+  padding: 180px 0 50px;
 }
 .sub-page #main.nexon-games #section3 .inner h2 {
   padding-bottom: 30px;
@@ -168,4 +168,32 @@
 }
 .sub-page #main.nexon-games #section3 .inner .content ul li a img {
   padding-right: 10px;
+}
+.sub-page #nexon-location {
+  background-color: #f8f8f8;
+}
+.sub-page #nexon-location .inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 100px 0 120px;
+}
+.sub-page #nexon-location .inner .content {
+  display: flex;
+  justify-content: space-between;
+}
+.sub-page #nexon-location .inner .content .items {
+  width: 46%;
+}
+.sub-page #nexon-location .inner .content .items h3 {
+  font-size: 44px;
+  color: #191b1d;
+  padding-bottom: 20px;
+}
+.sub-page #nexon-location .inner .content .items p {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.sub-page #nexon-location .inner .content .items .wrap_controllers {
+  display: none;
 }

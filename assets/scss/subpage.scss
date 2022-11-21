@@ -162,7 +162,7 @@
         h2{
           padding-bottom: 30px;
         }
-        padding: 245px 0 50px;
+        padding: 180px 0 50px;
         .content{
           ul{
             display: flex;
@@ -182,6 +182,34 @@
                 align-items: center;
               }
             }
+          }
+        }
+      }
+    }
+  }
+  #nexon-location{
+    background-color: #f8f8f8;
+    .inner{
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 100px 0 120px;
+      .content{
+        display: flex;
+        justify-content: space-between;
+        .items{
+          width:46%;
+          h3{
+            font-size: 44px;
+            color:#191b1d;
+            padding-bottom: 20px;
+          }
+          p{
+            font-size: 18px;
+            font-weight: bold;
+            padding-bottom: 20px;
+          }
+          .wrap_controllers{
+            display: none;
           }
         }
       }
