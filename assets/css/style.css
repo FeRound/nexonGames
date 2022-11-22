@@ -691,6 +691,31 @@ body #footer .footer-inner .footer-bottom .footer-container .footer-family-site 
   transform: scale(2);
   z-index: 1;
 }
+.sub-page .bottom-swiper .swiper-button-next {
+  right: 25%;
+  top: 50%;
+}
+.sub-page .bottom-swiper .swiper-button-next::after {
+  content: "";
+  background-image: url(../img/sub-page/games/right-next-btn-img.png);
+  background-position: center;
+  background-size: cover;
+  width: 57px;
+  height: 57px;
+  flex-shrink: 0;
+}
+.sub-page .bottom-swiper .swiper-button-prev {
+  left: 25%;
+}
+.sub-page .bottom-swiper .swiper-button-prev::after {
+  content: "";
+  background-image: url(../img/sub-page/games/left-prev-btn-img.png);
+  background-position: center;
+  background-size: cover;
+  width: 57px;
+  height: 57px;
+  flex-shrink: 0;
+}
 .sub-page .download-site-link .inner {
   padding-bottom: 115px;
   width: 95%;
