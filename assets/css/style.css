@@ -958,6 +958,9 @@ body #footer .footer-inner .footer-bottom .footer-container .footer-family-site 
   padding-bottom: 30px;
   margin-right: 50px;
 }
+.sub-page #main.v4 #section2 .inner .v4-swiper .swiper-wrapper .swiper-slide:hover .circle-bg {
+  background-color: #019fe8;
+}
 .sub-page #main.v4 #section2 .inner .v4-swiper .swiper-wrapper .swiper-slide .circle-bg {
   position: absolute;
   left: 50%;
@@ -983,6 +986,7 @@ body #footer .footer-inner .footer-bottom .footer-container .footer-family-site 
 .sub-page #main.v4 #section2 .inner .charactar-info .charactar-name {
   display: flex;
   align-items: flex-end;
+  padding-bottom: 110px;
 }
 .sub-page #main.v4 #section2 .inner .charactar-info .charactar-name .title1 {
   flex: 34%;

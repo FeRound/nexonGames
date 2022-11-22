@@ -320,6 +320,11 @@
           width: 90%;
           .swiper-wrapper{
             .swiper-slide{
+              &:hover{
+                .circle-bg{
+                  background-color: #019fe8;
+                }
+              }
               cursor: pointer;
               padding-bottom: 30px;
               margin-right: 50px;
@@ -351,6 +356,7 @@
           .charactar-name{
             display: flex;
             align-items: flex-end;
+            padding-bottom: 110px;
             .title1{
               flex:34%;
               h2{
