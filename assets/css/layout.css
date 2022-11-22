@@ -5,6 +5,12 @@
   width: 100%;
   z-index: 1000;
 }
+#header.dark .header-inner {
+  background-color: #191b1d;
+}
+#header.dark .header-inner .gnb-wrap .gnb a {
+  color: #ffffff;
+}
 #header .header-inner {
   position: relative;
   background: #ffffff;

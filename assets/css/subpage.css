@@ -197,3 +197,53 @@
 .sub-page #nexon-location .inner .content .items .wrap_controllers {
   display: none;
 }
+.sub-page #main.v4 {
+  width: 100%;
+  max-width: 1640px;
+  margin: 0 auto;
+}
+.sub-page #main.v4 .main-banner {
+  max-width: 1640px;
+  padding: 130px 0;
+  background-image: url(../img/sub-page/games/v4/main-banner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sub-page #main.v4 .main-banner .inner {
+  width: 95%;
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+.sub-page #main.v4 .main-banner .inner h2 {
+  font-size: 70px;
+  color: #ffffff;
+}
+.sub-page #main.v4 .main-banner .inner p {
+  margin-top: 10vw;
+}
+.sub-page #main.v4 .main-banner .inner p span {
+  display: inline-block;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.4);
+}
+.sub-page #main.v4 .main-banner .inner p span:nth-child(1) {
+  padding-right: 30px;
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+}
+.sub-page #main.v4 .main-banner .inner p span:nth-child(2) {
+  padding-left: 30px;
+}
+.sub-page #main.v4 #section1 {
+  margin: 200px 0;
+}
+.sub-page #main.v4 #section1 .inner {
+  width: 95%;
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+.sub-page #main.v4 #section1 .inner .content {
+  text-align: right;
+}

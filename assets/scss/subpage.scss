@@ -215,4 +215,54 @@
       }
     }
   }
+  #main.v4{
+    width: 100%;
+    max-width: 1640px;
+    margin: 0 auto;
+    .main-banner{
+      max-width: 1640px;
+      padding: 130px 0;
+      background-image: url(../img/sub-page/games/v4/main-banner.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      .inner{
+        width: 95%;
+        max-width: 1280px;
+        margin: 0 auto;
+        position: relative;
+        h2{
+          font-size: 70px;
+          color:#ffffff;
+        }
+        p{
+          margin-top: 10vw;
+          span{
+            display: inline-block;
+            font-size: 18px;
+            color: rgba(255,255,255, .4);
+            &:nth-child(1){
+              padding-right: 30px;
+              border-right: 1px solid rgba(255,255,255, .4);
+            }
+            &:nth-child(2){
+              padding-left: 30px;
+            }
+          }
+        }
+      }
+    }
+    #section1{
+      margin: 200px 0;
+      .inner{
+        width:95%;
+        max-width: 1280px;
+        margin: 0 auto;
+        position: relative;
+        .content{
+          text-align: right;
+        }
+      }
+    }
+  }
 }

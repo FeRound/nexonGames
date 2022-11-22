@@ -3,6 +3,18 @@
 // $mainMinHeight: calc(100vh - (#{$headerHight} + #{$footerHeight}) - 51px);
 
 #header{
+  &.dark{
+    .header-inner{
+      background-color: #191b1d;
+      .gnb-wrap{
+        .gnb{
+          a{
+            color:#ffffff;
+          }
+        }
+      }
+    }
+  }
   position: fixed;
   top:0;
   width: 100%;
